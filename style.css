@@ -1,9 +1,60 @@
-body{
-	/*background-image: url(https://unsplash.com/photos/uFNElcqa6D0);*/
+/*body{
+	/*background-image: url(https://unsplash.com/photos/uFNElcqa6D0);
 	background-color: pink;
 	align-items: center;
 
 
+}*/
+
+@keyframes bgcolor {
+    0% {
+        background-color: #ffffff
+    
+    }
+
+    30% {
+        background-color: #ffe6e6
+        
+    }
+
+    60% {
+        background-color: #ffcccc
+      
+    }
+
+    90% {
+        background-color: #ffb3b3
+       
+    }
+
+    100% {
+        background-color: #ff9999
+        
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 30s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+#word{
+
+
+        position: relative;
+
+
+  animation-name:word;
+  animation-duration: 3s;
+}
+
+@keyframes word{
+  0%{color:yellow;left:0px; top:0px}
+  25%{color:blue; left:2000px; top:0px;}
+  50%{color:white; left:2000px; top:2000px;}
+  100%{color:green;left:0px; top:200px;}
 }
 
 #circle{
@@ -11,7 +62,7 @@ body{
 	  width: 100px;
       height: 100px;
       padding: 50px;
-      background: red;
+      background: gray;
       border-radius: 50%;
         position: relative;
 
@@ -22,12 +73,16 @@ body{
 
 
 
+/* color chnage for the circle and the rotation*/  
+
 @keyframes circle{
 	0%{background-color:yellow;left:0px; top:0px}
 	25%{background-color:blue; left:2000px; top:0px;}
 	50%{background-color:white; left:2000px; top:2000px;}
 	100%{background-color:green;left:0px; top:200px;}
 }
+
+
 #rec{
       width: 200px;
       height: 100px;
@@ -36,6 +91,8 @@ body{
       animation-name:rec;
   animation-duration: 10s;
     }
+
+/* color chnage for the rectangle and the rotation*/  
 
 @keyframes rec{
   0%   {background-color:red; left:0px; top:0px;}
@@ -57,6 +114,7 @@ body{
   animation-direction: alternate;
   opacity: .7;
          }
+
         @keyframes skew {
   0% {
     transform: skewX(180deg);
