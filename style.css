@@ -8,12 +8,12 @@
 
 @keyframes bgcolor {
     0% {
-        background-color: #ffffff
+        background-color:#FF8C00
     
     }
 
     30% {
-        background-color: #ffe6e6
+        background-color:#F4A460
         
     }
 
@@ -39,7 +39,7 @@ body {
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
 }
-
+/*
 #word{
 
 
@@ -54,7 +54,7 @@ body {
   0%{color:yellow;left:0px; top:0px}
   25%{color:blue; left:2000px; top:0px;}
   50%{color:white; left:2000px; top:2000px;}
-  100%{color:green;left:0px; top:200px;}
+  100%{color:#FF8C00;left:0px; top:200px;}
 }
 
 #circle{
@@ -73,7 +73,7 @@ body {
 
 
 
-/* color chnage for the circle and the rotation*/  
+/* color chnage for the circle and the rotation
 
 @keyframes circle{
 	0%{background-color:yellow;left:0px; top:0px}
@@ -92,7 +92,7 @@ body {
   animation-duration: 10s;
     }
 
-/* color chnage for the rectangle and the rotation*/  
+/* color chnage for the rectangle and the rotation*
 
 @keyframes rec{
   0%   {background-color:red; left:0px; top:0px;}
@@ -122,6 +122,7 @@ body {
   100% {
     transform: skewX(-20deg);
   }
-}
+
+  */
 
 
